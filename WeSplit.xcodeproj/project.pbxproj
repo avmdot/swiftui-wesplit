@@ -14,6 +14,7 @@
 		650D5E5D23F3E6AF00F82366 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650D5E5C23F3E6AF00F82366 /* Preview Assets.xcassets */; };
 		650D5E6023F3E6AF00F82366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650D5E5E23F3E6AF00F82366 /* LaunchScreen.storyboard */; };
 		6586E99223F4092700F85636 /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586E99123F4092700F85636 /* Project1.swift */; };
+		65A813E423F40F0C0045ACD2 /* Project2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A813E323F40F0C0045ACD2 /* Project2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		650D5E5F23F3E6AF00F82366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		650D5E6123F3E6AF00F82366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6586E99123F4092700F85636 /* Project1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1.swift; sourceTree = "<group>"; };
+		65A813E323F40F0C0045ACD2 /* Project2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		650D5E5223F3E6AE00F82366 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				65A813E223F40EEF0045ACD2 /* Project2 */,
 				6586E99023F4090300F85636 /* Project1 */,
 				650D5E5323F3E6AE00F82366 /* AppDelegate.swift */,
 				650D5E5523F3E6AE00F82366 /* SceneDelegate.swift */,
@@ -84,6 +87,14 @@
 				6586E99123F4092700F85636 /* Project1.swift */,
 			);
 			path = Project1;
+			sourceTree = "<group>";
+		};
+		65A813E223F40EEF0045ACD2 /* Project2 */ = {
+			isa = PBXGroup;
+			children = (
+				65A813E323F40F0C0045ACD2 /* Project2.swift */,
+			);
+			path = Project2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			files = (
 				650D5E5423F3E6AE00F82366 /* AppDelegate.swift in Sources */,
 				6586E99223F4092700F85636 /* Project1.swift in Sources */,
+				65A813E423F40F0C0045ACD2 /* Project2.swift in Sources */,
 				650D5E5623F3E6AE00F82366 /* SceneDelegate.swift in Sources */,
 				650D5E5823F3E6AE00F82366 /* ContentView.swift in Sources */,
 			);
