@@ -18,6 +18,8 @@
 		65A813E723F4288D0045ACD2 /* Project3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A813E623F4288D0045ACD2 /* Project3.swift */; };
 		65A813E923F428EA0045ACD2 /* CapsuleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A813E823F428EA0045ACD2 /* CapsuleText.swift */; };
 		65A813EB23F42B9E0045ACD2 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A813EA23F42B9E0045ACD2 /* TitleModifier.swift */; };
+		65A813EE23F446570045ACD2 /* Project4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A813ED23F446570045ACD2 /* Project4.swift */; };
+		65A813F023F44D130045ACD2 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 65A813EF23F44D130045ACD2 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		65A813E623F4288D0045ACD2 /* Project3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3.swift; sourceTree = "<group>"; };
 		65A813E823F428EA0045ACD2 /* CapsuleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleText.swift; sourceTree = "<group>"; };
 		65A813EA23F42B9E0045ACD2 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		65A813ED23F446570045ACD2 /* Project4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4.swift; sourceTree = "<group>"; };
+		65A813EF23F44D130045ACD2 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		650D5E5223F3E6AE00F82366 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				65A813EC23F446410045ACD2 /* Project4 */,
 				65A813E523F428590045ACD2 /* Project3 */,
 				65A813E223F40EEF0045ACD2 /* Project2 */,
 				6586E99023F4090300F85636 /* Project1 */,
@@ -75,6 +80,7 @@
 				650D5E5923F3E6AF00F82366 /* Assets.xcassets */,
 				650D5E5E23F3E6AF00F82366 /* LaunchScreen.storyboard */,
 				650D5E6123F3E6AF00F82366 /* Info.plist */,
+				65A813EF23F44D130045ACD2 /* SleepCalculator.mlmodel */,
 				650D5E5B23F3E6AF00F82366 /* Preview Content */,
 			);
 			path = WeSplit;
@@ -112,6 +118,14 @@
 				65A813EA23F42B9E0045ACD2 /* TitleModifier.swift */,
 			);
 			path = Project3;
+			sourceTree = "<group>";
+		};
+		65A813EC23F446410045ACD2 /* Project4 */ = {
+			isa = PBXGroup;
+			children = (
+				65A813ED23F446570045ACD2 /* Project4.swift */,
+			);
+			path = Project4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +199,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A813EE23F446570045ACD2 /* Project4.swift in Sources */,
 				650D5E5423F3E6AE00F82366 /* AppDelegate.swift in Sources */,
+				65A813F023F44D130045ACD2 /* SleepCalculator.mlmodel in Sources */,
 				6586E99223F4092700F85636 /* Project1.swift in Sources */,
 				65A813E423F40F0C0045ACD2 /* Project2.swift in Sources */,
 				65A813E723F4288D0045ACD2 /* Project3.swift in Sources */,
