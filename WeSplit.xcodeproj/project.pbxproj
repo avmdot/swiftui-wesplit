@@ -13,6 +13,8 @@
 		650D5E5A23F3E6AF00F82366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650D5E5923F3E6AF00F82366 /* Assets.xcassets */; };
 		650D5E5D23F3E6AF00F82366 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650D5E5C23F3E6AF00F82366 /* Preview Assets.xcassets */; };
 		650D5E6023F3E6AF00F82366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650D5E5E23F3E6AF00F82366 /* LaunchScreen.storyboard */; };
+		6577233323F561790009F631 /* Project5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6577233223F561790009F631 /* Project5.swift */; };
+		6577233523F566DA0009F631 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6577233423F566DA0009F631 /* start.txt */; };
 		6586E99223F4092700F85636 /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586E99123F4092700F85636 /* Project1.swift */; };
 		65A813E423F40F0C0045ACD2 /* Project2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A813E323F40F0C0045ACD2 /* Project2.swift */; };
 		65A813E723F4288D0045ACD2 /* Project3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A813E623F4288D0045ACD2 /* Project3.swift */; };
@@ -31,6 +33,8 @@
 		650D5E5C23F3E6AF00F82366 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		650D5E5F23F3E6AF00F82366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		650D5E6123F3E6AF00F82366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6577233223F561790009F631 /* Project5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project5.swift; sourceTree = "<group>"; };
+		6577233423F566DA0009F631 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		6586E99123F4092700F85636 /* Project1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1.swift; sourceTree = "<group>"; };
 		65A813E323F40F0C0045ACD2 /* Project2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2.swift; sourceTree = "<group>"; };
 		65A813E623F4288D0045ACD2 /* Project3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3.swift; sourceTree = "<group>"; };
@@ -70,6 +74,7 @@
 		650D5E5223F3E6AE00F82366 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				6577233123F561580009F631 /* Project5 */,
 				65A813EC23F446410045ACD2 /* Project4 */,
 				65A813E523F428590045ACD2 /* Project3 */,
 				65A813E223F40EEF0045ACD2 /* Project2 */,
@@ -92,6 +97,15 @@
 				650D5E5C23F3E6AF00F82366 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6577233123F561580009F631 /* Project5 */ = {
+			isa = PBXGroup;
+			children = (
+				6577233223F561790009F631 /* Project5.swift */,
+				6577233423F566DA0009F631 /* start.txt */,
+			);
+			path = Project5;
 			sourceTree = "<group>";
 		};
 		6586E99023F4090300F85636 /* Project1 */ = {
@@ -187,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				650D5E6023F3E6AF00F82366 /* LaunchScreen.storyboard in Resources */,
+				6577233523F566DA0009F631 /* start.txt in Resources */,
 				650D5E5D23F3E6AF00F82366 /* Preview Assets.xcassets in Resources */,
 				650D5E5A23F3E6AF00F82366 /* Assets.xcassets in Resources */,
 			);
@@ -199,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6577233323F561790009F631 /* Project5.swift in Sources */,
 				65A813EE23F446570045ACD2 /* Project4.swift in Sources */,
 				650D5E5423F3E6AE00F82366 /* AppDelegate.swift in Sources */,
 				65A813F023F44D130045ACD2 /* SleepCalculator.mlmodel in Sources */,
