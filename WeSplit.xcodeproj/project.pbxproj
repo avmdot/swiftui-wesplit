@@ -23,6 +23,13 @@
 		65A813EB23F42B9E0045ACD2 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A813EA23F42B9E0045ACD2 /* TitleModifier.swift */; };
 		65A813EE23F446570045ACD2 /* Project4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A813ED23F446570045ACD2 /* Project4.swift */; };
 		65A813F023F44D130045ACD2 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 65A813EF23F44D130045ACD2 /* SleepCalculator.mlmodel */; };
+		65ABDAF923F6880600755972 /* Project7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABDAF823F6880600755972 /* Project7.swift */; };
+		65ABDAFB23F6903300755972 /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABDAFA23F6903300755972 /* UserClass.swift */; };
+		65ABDAFD23F6909500755972 /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABDAFC23F6909500755972 /* UserStruct.swift */; };
+		65ABDAFF23F6917000755972 /* ExampleClassStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABDAFE23F6917000755972 /* ExampleClassStruct.swift */; };
+		65ABDB0223F6930400755972 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABDB0123F6930400755972 /* ExpenseItem.swift */; };
+		65ABDB0423F6939F00755972 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABDB0323F6939F00755972 /* Expenses.swift */; };
+		65ABDB0623F698CC00755972 /* AddExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABDB0523F698CC00755972 /* AddExpense.swift */; };
 		65BB596E23F59C10003DA05E /* AnimationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB596D23F59C10003DA05E /* AnimationGesture.swift */; };
 		65BB597023F59E04003DA05E /* AnimationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB596F23F59E04003DA05E /* AnimationTransition.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +53,13 @@
 		65A813EA23F42B9E0045ACD2 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		65A813ED23F446570045ACD2 /* Project4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4.swift; sourceTree = "<group>"; };
 		65A813EF23F44D130045ACD2 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		65ABDAF823F6880600755972 /* Project7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project7.swift; sourceTree = "<group>"; };
+		65ABDAFA23F6903300755972 /* UserClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
+		65ABDAFC23F6909500755972 /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
+		65ABDAFE23F6917000755972 /* ExampleClassStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClassStruct.swift; sourceTree = "<group>"; };
+		65ABDB0123F6930400755972 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		65ABDB0323F6939F00755972 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		65ABDB0523F698CC00755972 /* AddExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpense.swift; sourceTree = "<group>"; };
 		65BB596D23F59C10003DA05E /* AnimationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGesture.swift; sourceTree = "<group>"; };
 		65BB596F23F59E04003DA05E /* AnimationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +94,7 @@
 		650D5E5223F3E6AE00F82366 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				65ABDAF723F687F000755972 /* Project7 */,
 				6577233623F5718B0009F631 /* Project6 */,
 				6577233123F561580009F631 /* Project5 */,
 				65A813EC23F446410045ACD2 /* Project4 */,
@@ -159,6 +174,28 @@
 			path = Project4;
 			sourceTree = "<group>";
 		};
+		65ABDAF723F687F000755972 /* Project7 */ = {
+			isa = PBXGroup;
+			children = (
+				65ABDB0023F6929600755972 /* example */,
+				65ABDAF823F6880600755972 /* Project7.swift */,
+				65ABDB0523F698CC00755972 /* AddExpense.swift */,
+				65ABDB0123F6930400755972 /* ExpenseItem.swift */,
+				65ABDB0323F6939F00755972 /* Expenses.swift */,
+			);
+			path = Project7;
+			sourceTree = "<group>";
+		};
+		65ABDB0023F6929600755972 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				65ABDAFA23F6903300755972 /* UserClass.swift */,
+				65ABDAFC23F6909500755972 /* UserStruct.swift */,
+				65ABDAFE23F6917000755972 /* ExampleClassStruct.swift */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65ABDB0623F698CC00755972 /* AddExpense.swift in Sources */,
+				65ABDB0423F6939F00755972 /* Expenses.swift in Sources */,
 				6577233323F561790009F631 /* Project5.swift in Sources */,
 				65BB596E23F59C10003DA05E /* AnimationGesture.swift in Sources */,
 				65A813EE23F446570045ACD2 /* Project4.swift in Sources */,
@@ -239,12 +278,17 @@
 				6586E99223F4092700F85636 /* Project1.swift in Sources */,
 				65A813E423F40F0C0045ACD2 /* Project2.swift in Sources */,
 				6577233823F5719E0009F631 /* Project6.swift in Sources */,
+				65ABDAFF23F6917000755972 /* ExampleClassStruct.swift in Sources */,
 				65A813E723F4288D0045ACD2 /* Project3.swift in Sources */,
 				65BB597023F59E04003DA05E /* AnimationTransition.swift in Sources */,
 				650D5E5623F3E6AE00F82366 /* SceneDelegate.swift in Sources */,
+				65ABDAFD23F6909500755972 /* UserStruct.swift in Sources */,
 				650D5E5823F3E6AE00F82366 /* ContentView.swift in Sources */,
+				65ABDAF923F6880600755972 /* Project7.swift in Sources */,
+				65ABDB0223F6930400755972 /* ExpenseItem.swift in Sources */,
 				65A813E923F428EA0045ACD2 /* CapsuleText.swift in Sources */,
 				65A813EB23F42B9E0045ACD2 /* TitleModifier.swift in Sources */,
+				65ABDAFB23F6903300755972 /* UserClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
